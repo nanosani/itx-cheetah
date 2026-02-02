@@ -1,0 +1,188 @@
+/**
+ * ITX Cheetah Meta Box Styles
+ */
+
+.itx-metabox-content {
+    padding: 5px 0;
+}
+
+/* Score Display */
+.itx-metabox-score {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.itx-metabox-score.itx-score-good {
+    background: rgba(34, 197, 94, 0.1);
+}
+
+.itx-metabox-score.itx-score-warning {
+    background: rgba(245, 158, 11, 0.1);
+}
+
+.itx-metabox-score.itx-score-critical {
+    background: rgba(239, 68, 68, 0.1);
+}
+
+.itx-metabox-score .itx-score-value {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.itx-score-good .itx-score-value {
+    color: #22c55e;
+}
+
+.itx-score-warning .itx-score-value {
+    color: #f59e0b;
+}
+
+.itx-score-critical .itx-score-value {
+    color: #ef4444;
+}
+
+.itx-metabox-score .itx-score-label {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.itx-score-good .itx-score-label {
+    color: #16a34a;
+}
+
+.itx-score-warning .itx-score-label {
+    color: #d97706;
+}
+
+.itx-score-critical .itx-score-label {
+    color: #dc2626;
+}
+
+/* Metrics */
+.itx-metabox-metrics {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.itx-metabox-metric {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background: #f9fafb;
+    border-radius: 6px;
+}
+
+.itx-metabox-metric .itx-metric-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.itx-metabox-metric .itx-metric-label {
+    display: block;
+    font-size: 11px;
+    color: #6b7280;
+    text-transform: uppercase;
+}
+
+/* Issues List */
+.itx-metabox-issues {
+    margin-bottom: 12px;
+    padding: 10px;
+    background: #fef3c7;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.itx-metabox-issues strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #92400e;
+}
+
+.itx-metabox-issues ul {
+    margin: 0;
+    padding-left: 16px;
+}
+
+.itx-metabox-issues li {
+    margin-bottom: 3px;
+    color: #78350f;
+}
+
+.itx-metabox-issues .itx-issue-critical {
+    color: #dc2626;
+}
+
+.itx-metabox-issues .itx-issue-warning {
+    color: #d97706;
+}
+
+/* Time */
+.itx-metabox-time {
+    font-size: 11px;
+    color: #9ca3af;
+    margin: 0 0 12px;
+}
+
+/* Actions */
+.itx-metabox-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.itx-metabox-actions .button {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.itx-metabox-actions .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Progress */
+.itx-metabox-progress {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 10px;
+    background: #eff6ff;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #1d4ed8;
+}
+
+.itx-metabox-progress .spinner {
+    float: none;
+    margin: 0;
+}
+
+/* No scan state */
+.itx-metabox-no-scan {
+    padding: 15px;
+    background: #f3f4f6;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.itx-metabox-no-scan p {
+    margin: 0;
+    color: #6b7280;
+}
